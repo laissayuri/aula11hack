@@ -97,4 +97,5 @@ while( contador <= limite){ //condição
     console.log(contador);
     contador = contador + 1; //atualização do valor -> essencial pata não ter laço infinito
     //pode ser escrito contador += 1 ou contador++
+    //boa prática: contador ser chamado de i
 }
