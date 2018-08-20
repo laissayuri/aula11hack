@@ -88,3 +88,12 @@
 
 
 // ------------------ Ex 6 while -------------------------
+
+//inicialização
+let limite = Number(prompt("Digite o limite do contador"));
+let contador = 1;
+
+while( contador <= limite){ //condição
+    console.log(contador);
+    contador = contador + 1; //atualização do valor -> essencial pata não ter laço infinito
+}
